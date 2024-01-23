@@ -14,8 +14,13 @@
  		<constructor-arg>
  			<value>Nityanand</value>
  		</constructor-arg>
- 		<constructor-arg value="12" type="int"/>
+ 		<constructor-arg value="12"/>
  		<constructor-arg ref="cer"/>
+ 	</bean>
+ 	
+ 	<bean class="com.springcore.ci.Addition" name="add">
+ 		<constructor-arg value="12"/>
+ 		<constructor-arg value="34"/>
  	</bean>
  
  </beans>
