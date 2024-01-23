@@ -13,5 +13,5 @@
  		<property name="street" value="Temp Street"></property>
  		<property name="city" value="Delhi"></property>
  	</bean>
- 	<bean class="com.springcore.autowire.Emp" name="emp1" autowire="byName"/>
+ 	<bean class="com.springcore.autowire.Emp" name="emp1" autowire="byType"/>
  </beans>
