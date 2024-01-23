@@ -12,6 +12,7 @@ public class Emp {
 		// TODO Auto-generated constructor stub
 	}
 	
+	@Autowired
 	public Emp(Address address) {
 		super();
 		this.address = address;
@@ -22,7 +23,6 @@ public class Emp {
 		return address;
 	}
 
-	@Autowired
 	public void setAddress(Address address) {
 		System.out.println("Setting address");
 		this.address = address;
