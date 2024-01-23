@@ -24,10 +24,10 @@ public class Samosa {
 		return "Samosa [price=" + price + "]";
 	}
 	
-	public void init() {
-		System.out.println("Inside init method");
+	public void hey() {
+		System.out.println("Inside init method: hey how are you?");
 	}
-	public void destroy() {
-		System.out.println("Inside destroy method");
+	public void bye() {
+		System.out.println("Inside destroy method: bye bye i am going to die");
 	}
 }
