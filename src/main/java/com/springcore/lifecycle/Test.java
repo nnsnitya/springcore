@@ -10,12 +10,15 @@ public class Test {
 		//registering shutdown hook
 		context.registerShutdownHook();
 		
-		Samosa s1=(Samosa) context.getBean("s1");
+		/*Samosa s1=(Samosa) context.getBean("s1");
 		System.out.println(s1);
 		
 		System.out.println("++++++++++++++++++++++++");
 		Pepsi p1 = (Pepsi) context.getBean("p1");
-		System.out.println(p1);
+		System.out.println(p1);*/
+		
+		Course course = (Course) context.getBean("course");
+		System.out.println(course);
 	}
 
 }
