@@ -3,7 +3,7 @@ package com.springcore.autowire.annotation;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class Emp {
-	@Autowired
+	
 	private Address address;
 
 	
@@ -22,6 +22,7 @@ public class Emp {
 		return address;
 	}
 
+	@Autowired
 	public void setAddress(Address address) {
 		System.out.println("Setting address");
 		this.address = address;
