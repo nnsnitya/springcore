@@ -21,6 +21,8 @@ public class Addition {
 	}
 	
 	public void doSum() {
+		System.out.println("Value of a "+this.a);
+		System.out.println("Value of b "+this.b);
 		System.out.println("Sum is : "+(this.a+this.b));
 	}
 }
