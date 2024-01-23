@@ -9,8 +9,12 @@
  http://www.springframework.org/schema/context
  http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<context:annotation-config/> 
- 	<bean class="com.springcore.autowire.annotation.Address" name="address">
+	<context:annotation-config/>
+ 	<bean class="com.springcore.autowire.annotation.Address" name="temp1">
+ 		<property name="street" value="Temp Street"></property>
+ 		<property name="city" value="Delhi"></property>
+ 	</bean>
+ 	<bean class="com.springcore.autowire.annotation.Address" name="temp2">
  		<property name="street" value="Temp Street"></property>
  		<property name="city" value="Delhi"></property>
  	</bean>
