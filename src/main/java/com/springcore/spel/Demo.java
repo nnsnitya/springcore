@@ -16,6 +16,9 @@ public class Demo {
 	@Value("#{T(java.lang.Math).PI}")
 	private double e;
 	
+	@Value("#{new java.lang.String('Nityanand Singh')}")
+	private String name;
+	
 	public double getZ() {
 		return z;
 	}
@@ -47,7 +50,7 @@ public class Demo {
 
 	@Override
 	public String toString() {
-		return "Demo [x=" + x + ", y=" + y + ", z=" + z + ", e=" + e + "]";
+		return "Demo [x=" + x + ", y=" + y + ", z=" + z + ", e=" + e + ", name=" + name + "]";
 	}
 	
 }
