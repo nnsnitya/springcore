@@ -16,5 +16,11 @@ public class Test {
 		System.out.println(student2);
 		System.out.println(student2.hashCode());
 		
+		System.out.println("-----------------------------");
+		Teacher t1 = con.getBean("teacher", Teacher.class);
+		Teacher t2 = con.getBean("teacher", Teacher.class);
+		
+		System.out.println(t1.hashCode());
+		System.out.println(t2.hashCode());
 	}
 }
