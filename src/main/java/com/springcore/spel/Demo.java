@@ -10,16 +10,17 @@ public class Demo {
 	@Value("#{2+5+25+56}")
 	private int y;
 	
+	@Value("#{T(java.lang.Math).sqrt(144)}")
 	private double z;
 	
 	public double getZ() {
 		return z;
 	}
 	
-	@Value("#{T(java.lang.Math).sqrt(144)}")
 	public void setZ(double z) {
 		this.z = z;
 	}
+	
 	public int getX() {
 		return x;
 	}
