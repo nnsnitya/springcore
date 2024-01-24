@@ -14,7 +14,7 @@ public class Test {
 
 		Student student2 = con.getBean("ob", Student.class);
 		System.out.println(student2);
-		System.out.println(student.hashCode());
+		System.out.println(student2.hashCode());
 		
 	}
 }
