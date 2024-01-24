@@ -1,10 +1,13 @@
 package com.springcore.spel;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Demo {
+	@Value("#{22+11}")
 	private int x;
+	@Value("#{2+5+25+56}")
 	private int y;
 	public int getX() {
 		return x;
