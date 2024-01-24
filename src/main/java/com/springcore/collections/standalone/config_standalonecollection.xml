@@ -13,7 +13,7 @@
  http://www.springframework.org/schema/util/spring-util.xsd">
  
  	<!-- standalone list -->
- 	<util:list list-class="java.util.LinkedList" id="mybestfriends">
+ 	<util:list list-class="java.util.Vector" id="mybestfriends">
  		<value>Aman</value>
  		<value>Ankit</value>
  		<value>Rohit</value>
@@ -21,7 +21,7 @@
  	</util:list>
  	
  	<!-- standalone map -->
- 	<util:map map-class="java.util.HashMap" id="fees">
+ 	<util:map map-class="java.util.TreeMap" id="fees">
  		<entry key="Spring Framework" value="8000"/>
  		<entry key="Django Framework" value="5000"/>
  		<entry key="Hibernate Framework" value="2000"/>
